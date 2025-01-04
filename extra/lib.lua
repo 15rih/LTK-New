@@ -577,7 +577,7 @@ function library:InitNotifications(text, duration, callback)
         elseif type == "success" then
             bar.BackgroundColor3 = Color3.fromRGB(131, 255, 103)
         elseif type == "information" then
-            bar.BackgroundColor3 = Color3.fromRGB(126, 117, 255)
+            bar.BackgroundColor3 = Color3.fromRGB(255,0,0)
         end
     
         barCorner.CornerRadius = UDim.new(0, 2)
