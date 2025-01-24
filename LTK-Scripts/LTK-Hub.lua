@@ -28,6 +28,8 @@ if game.PlaceId == (9874911474) then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
 elseif game.PlaceId == (16472538603) then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
+elseif game.PlaceId == (891852901) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Greenvillie.lua"))()
 else
   game.Players.LocalPlayer:Kick("LTK Hub | Unsupported Game, If this is an error Contact a Creator | Discord was copied to clipboard")
   setclipboard("https://discord.gg/dfzHWSGdPc")
