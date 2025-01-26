@@ -26,7 +26,9 @@ Thanks for using LTK Hub [Buyers]! ^-^
 repeat wait(0.1) until game:IsLoaded()
 if game.PlaceId == (9874911474) then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
-elseif game.PlaceId == (16472538603) then
+elseif game.PlaceId == (16472538603) then --// Bug Test
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
+ elseif game.PlaceId == (13453616108) then --// VC Tha Bronx
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
 elseif game.PlaceId == (891852901) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Greenvillie.lua"))()
