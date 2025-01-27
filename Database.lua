@@ -65,5 +65,6 @@ Whitelist("29319da8-c84a-11ef-b706-806e6f6e6963")
 Whitelist("a23951a540cd9c482a9185d8a38f5b78e3da49f0d4530f01a793411db7ad95d3") -- meeeeeeeee
 Whitelist("c5e2881d-89b8-11ed-ac5c-806e6f6e6963") -- 1259413392599420938
 Whitelist("abface547e485e94f2124e4f195223a65c0881eb88e0d77e51af812bda265c4d") -- staff yng 3 gud
+Whitelist("3645c7097d600624ab1fc2a4577a3ac2de886b0aa5c488dfccaf2c2706a37a81")
 
 return Hwids
