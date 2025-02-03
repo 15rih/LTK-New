@@ -30,8 +30,10 @@ elseif game.PlaceId == (16472538603) then --// Bug Test
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
  elseif game.PlaceId == (13453616108) then --// VC Tha Bronx
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
-elseif game.PlaceId == (891852901) then
+elseif game.PlaceId == (891852901) then --// Greenville
     loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Greenvillie.lua"))()
+elseif game.PlaceId == (109109677622036) then --// Chicago Trenches RP
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Paid_ChicagoTrenches.lua"))()
 else
   game.Players.LocalPlayer:Kick("LTK Hub | Unsupported Game, If this is an error Contact a Creator | Discord was copied to clipboard")
   setclipboard("https://discord.gg/dfzHWSGdPc")
