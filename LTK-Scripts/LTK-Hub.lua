@@ -24,9 +24,9 @@ Thanks for using LTK Hub [Buyers]! ^-^
 
 
 repeat wait(0.1) until game:IsLoaded()
-if game.PlaceId == (9874911474) then
+if game.PlaceId == (9874911474) then --// Tha Bronx 2 (Taken Donw)
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
-elseif game.PlaceId == (16472538603) then --// Bug Test
+elseif game.PlaceId == (16472538603) then --// Bug Test (Now known as: Tha Bronx 3)
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
  elseif game.PlaceId == (13453616108) then --// VC Tha Bronx
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
