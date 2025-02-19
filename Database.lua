@@ -84,5 +84,6 @@ Whitelist("02162c89-e6b4-11ef-91a3-806e6f6e6963") -- 1085498790326325301
 Whitelist("38e18e40-bf6d-11ed-b62f-806e6f6e6963") -- 1286487644129198092
 Whitelist("37a6e37b-dbca-11ef-acce-806e6f6e6963") -- oge
 Whitelist("8EAC6CA5-EED2-4B0C-BA2C-B0222903D2EF") -- 822895009530380348 [1 Month] -- expires March 9 2025
+Whitelist("133d03e452c9de2ae7bce9c10814f76aaaad99de5ae12baee732b57e6cb1bf2c") -- cruvy
 
 return Hwids
