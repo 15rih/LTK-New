@@ -87,5 +87,6 @@ Whitelist("8EAC6CA5-EED2-4B0C-BA2C-B0222903D2EF") -- 822895009530380348 [1 Month
 Whitelist("133d03e452c9de2ae7bce9c10814f76aaaad99de5ae12baee732b57e6cb1bf2c") -- cruvy
 Whitelist("47d8c5ffe642c99588b039ea42c819cb2ccfe9d5ddb59ce76e6d5193c7b0c2c4") -- 2fadedmunch
 Whitelist("0760e0aa-4047-11ee-bfa3-806e6f6e6963") -- telegramjunkie / 1111425155076472862
+Whitelist("36f6437a-3f5b-11ed-8f7b-806e6f6e6963") -- 685864135069794407
 
 return Hwids
