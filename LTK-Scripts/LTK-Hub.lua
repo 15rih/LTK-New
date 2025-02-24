@@ -10,11 +10,11 @@
 
 Credits:
 Cytox | @wtwcaws - Owner/Lead Developer
-EstPlugs | @justaconfessionn - Owner/Developer
+Zud/2rih | @nosays - Owner/Day 1
 Spazz | @btkbantu - Co Owner
 Rotation | @iminrotation - Tester
 
-LTK Hub is owned, Coded, Developed, and Managed by Cytox & EstPlugs alone. Anyone else who claims to be a Developer is an impersonator.
+LTK Hub is owned, Coded, Developed, and Managed by Cytox alone. Anyone else who claims to be a Developer is an impersonator.
 This version of LTK Hub is Paid, wanna buy? - https://discord.gg/dfzHWSGdPc
 
 Any attempts at Stealing & or Cracking LTK Hub will result in a valid takedown request *.
@@ -26,7 +26,7 @@ Thanks for using LTK Hub [Buyers]! ^-^
 repeat wait(0.1) until game:IsLoaded()
 if game.PlaceId == (9874911474) then --// Tha Bronx 2 (Taken Donw)
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
-elseif game.PlaceId == (16472538603) then --// Bug Test (Now known as: Tha Bronx 3)
+elseif game.PlaceId == (12923560629) then --// Bug Test (Now known as: Tha Bronx 3)
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
  elseif game.PlaceId == (13453616108) then --// VC Tha Bronx
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
