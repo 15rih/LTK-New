@@ -9,7 +9,7 @@
 
 
 Credits:
-Cytox | @wtwcaws - Owner/Lead Developer
+Cytox/Cyvux | @wtwcaws - Owner/Lead Developer
 Zud/2rih | @nosays - Owner/Day 1
 Spazz | @btkbantu - Co Owner
 Rotation | @iminrotation - Tester
@@ -28,7 +28,7 @@ if game.PlaceId == (16472538603) then --// Tha Bronx 2
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
 elseif game.PlaceId == (12923560629) then --// Bug Test (Now known as: Tha Bronx 3)
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
- elseif game.PlaceId == (13453616108) then --// VC Tha Bronx
+ elseif game.PlaceId == (18642421777) then --// VC Tha Bronx
   loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Auth.lua"))()
 elseif game.PlaceId == (891852901) then --// Greenville
     loadstring(game:HttpGet("https://raw.githubusercontent.com/15rih/LTK-New/refs/heads/main/LTK-Scripts/Greenvillie.lua"))()
