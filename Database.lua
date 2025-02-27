@@ -88,5 +88,7 @@ Whitelist("0760e0aa-4047-11ee-bfa3-806e6f6e6963") -- telegramjunkie / 1111425155
 Whitelist("36f6437a-3f5b-11ed-8f7b-806e6f6e6963") -- 685864135069794407
 Whitelist("dedd6688-92cc-11ee-a84a-806e6f6e6963") -- 907457085401354263
 Whitelist("1cac3b06-d6bc-11ef-ac4b-806e6f6e6963") -- 1295396268243292162
+Whitelist("38e05ec4ceeb4c0b5b51f68832f3a63fddb1a3325f4d53") -- yeeezzyy
+Whitelist("e47fbf27-a60a-11ef-98ab-806e6f6e6963") -- flocktriippy
 
 return Hwids
