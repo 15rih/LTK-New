@@ -90,5 +90,6 @@ Whitelist("dedd6688-92cc-11ee-a84a-806e6f6e6963") -- 907457085401354263
 Whitelist("1cac3b06-d6bc-11ef-ac4b-806e6f6e6963") -- 1295396268243292162
 Whitelist("38e05ec4ceeb4c0b5b51f68832f3a63fddb1a3325f4d53") -- yeeezzyy
 Whitelist("e47fbf27-a60a-11ef-98ab-806e6f6e6963") -- flocktriippy
+Whitelist("07cfc2c0-0f75-11ed-b82b-806e6f6e6963") -- rotation on Xeno
 
 return Hwids
