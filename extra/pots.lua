@@ -1,18 +1,11 @@
-workspace["No-Steal Pots"]:GetChildren()[18]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[24]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[22]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[21]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[35]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[32]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[31]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[30]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[29]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[28]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[27]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[26]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[25]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[23]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[20]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[19]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[34]:Destroy()
-workspace["No-Steal Pots"]:GetChildren()[17]:Destroy()
+-- delete safe data
+for i,v in ipairs(game:GetService("Players").LocalPlayer.InvData:GetChildren()) do
+    if v ~= nil then
+        v:Destroy()
+    end
+end
+
+-- drop money
+game:GetService("RunService"):BindToRenderStep("MoneyDrop", 0, function()
+game:GetService("ReplicatedStorage"):WaitForChild("BankProcessRemote"):InvokeServer("Drop", 10000)
+end)
