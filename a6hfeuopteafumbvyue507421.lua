@@ -13,4 +13,5 @@ return {
     "7591938212", -- ipstall reseller
     "1370930386", -- gab\sleepyhub
     "8079647288", -- isotonic
+    "8177250814", -- cytox
 }
