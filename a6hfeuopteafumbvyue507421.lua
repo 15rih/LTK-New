@@ -12,7 +12,7 @@ return {
     "4121743196",
     "7591938212", -- ipstall reseller
     "1370930386", -- gab\sleepyhub
-    "8079647288", -- isotonic
+    "3297783", -- isotonic
     "8177250814", -- cytox
     "7707176990", -- Fylyp
     "2317461891", -- Tony
