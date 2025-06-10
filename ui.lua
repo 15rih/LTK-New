@@ -264,7 +264,7 @@ end
         }
     
         local Texts = {
-            "User: " .. game.Players.LocalPlayer.Name,--"user",
+            "v2.3.6 | Paid"--"user",
         }
     
         local function ChangeText(Object, NewText) -- this is for the thing in the top-right in the ui what
