@@ -284,7 +284,8 @@ end
         UI["2"]["BackgroundColor3"] = Color3FromRGB(24, 24, 24)
         local UserInputService = game:GetService("UserInputService")
 		      if UserInputService.KeyboardEnabled then
-			   UI["2"]["Size"] = UDim2New(0, 562, 0, 459)
+				UI["2"]["Size"] = UDim2New(0.8, 0, 0.9, 0)					
+			   --UI["2"]["Size"] = UDim2New(0, 562, 0, 459)
 		print('keyboard')
 		else
 			UI["2"]["Size"] = UDim2New(0.8, 0, 0.9, 0)
