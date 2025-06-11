@@ -278,11 +278,19 @@ end
         UI["1"] = InstanceNew("ScreenGui", coreguiService)
         UI["1"]["Name"] = [[syndicate.club]]
         UI["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Global
-    
+          
         UI["2"] = InstanceNew("Frame", UI["1"])
         UI["2"]["BorderSizePixel"] = 0
         UI["2"]["BackgroundColor3"] = Color3FromRGB(24, 24, 24)
-        UI["2"]["Size"] = UDim2New(0, 562, 0, 459)
+        local UserInputService = game:GetService("UserInputService")
+		      if UserInputService.KeyboardEnabled then
+			   UI["2"]["Size"] = UDim2New(0, 562, 0, 459)
+		print('keyboard')
+		else
+			UI["2"]["Size"] = UDim2New(0.8, 0, 0.9, 0)
+			print("not an available keyboard")
+		end
+        --UI["2"]["Size"] = UDim2New(0, 562, 0, 459)
         UI["2"]["Position"] = UDim2New(0, 527, 0, 168)
         UI["2"]["BorderColor3"] = Color3FromRGB(0, 0, 0)
         UI["2"]["Name"] = [[BackgroundFrame]]
