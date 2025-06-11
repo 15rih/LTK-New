@@ -283,7 +283,7 @@ end
         UI["2"]["BorderSizePixel"] = 0
         UI["2"]["BackgroundColor3"] = Color3FromRGB(24, 24, 24)
         UI["2"]["Size"] = UDim2New(0, 562, 0, 459)
-	UI["2"]["Position"] = UDim2New(0.5, -171, 0.5, 4)	-- {0.5, -171}, {0.5, 4}			
+	UI["2"]["Position"] = UDim2New(0.5, -134, 0.5, -229)	--{0.5, -134}, {0.5, -229}		
         --UI["2"]["Position"] = UDim2New(0, 527, 0, 168)
         UI["2"]["BorderColor3"] = Color3FromRGB(0, 0, 0)
         UI["2"]["Name"] = [[BackgroundFrame]]
