@@ -23,4 +23,5 @@ return {
     "180567909", -- zekensinister
     "5137526438", -- shiesty
     "181521054", -- accuracy
+    "8172613739", -- Lucent
 }
