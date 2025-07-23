@@ -15,9 +15,15 @@ local UserInputService = game:GetService("UserInputService")
 local TextService = game:GetService("TextService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
-local CoreGuiService = game:GetService("CoreGui")
+local CoreGuiService
 local ContentService = game:GetService("ContentProvider")
 local TeleportService = game:GetService("TeleportService")
+
+if gethui then
+    CoreGuiService = gethui()
+else
+    CoreGuiService = game:GetService("CoreGui")
+end
 
 -- / Tween table & function
 local TweenTable = {
